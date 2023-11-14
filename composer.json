@@ -1,0 +1,18 @@
+{
+    "name": "ak/videostream",
+    "description": "VideoStream PHP library for video management",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ak\\Videostream\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ahmed Elkady",
+            "email": "53810738+AhmedElkad@users.noreply.github.com"
+        }
+    ]
+}
