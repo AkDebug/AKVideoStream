@@ -6,18 +6,14 @@ trait SetData
     private $path;
     public $isLink = false;
     public $link;
-    private $key;
+
     public $stream = "";
     private $buffer = 102400;
     public $start = -1;
     public $end = -1;
     public $size = 0;
 
-    public function setKey($key)
-    {
-        $this->key = $key;
-        return $this;
-    }
+
     public function setPath($path)
     {
         $this->path = $path;
