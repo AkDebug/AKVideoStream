@@ -23,7 +23,11 @@ trait Token
         $this->iv = $iv;
         return $this;
     }
-    
+    public function setTime($time)
+    {
+        $this->exp_after = $time;
+        return $this;
+    }
     public function Encrypt()
     {
 
